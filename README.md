@@ -1,18 +1,34 @@
-## Getting Started
+# Projeto iPhone Componentes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto visa modelar e implementar as funcionalidades principais de um iPhone como um exercício de aprendizado em programação orientada a objetos e design de software. As funcionalidades incluídas neste projeto são o Reprodutor Musical, o Aparelho Telefônico e o Navegador na Internet.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+### Reprodutor Musical
+- Métodos:
+  - `tocar()`: Inicia a reprodução de música.
+  - `pausar()`: Pausa a música que está tocando.
+  - `selecionarMusica(String musica)`: Seleciona uma música para tocar, dado o nome da música.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Aparelho Telefônico
+- Métodos:
+  - `ligar(String numero)`: Realiza uma chamada para o número especificado.
+  - `atender()`: Atende uma chamada recebida.
+  - `iniciarCorreioVoz()`: Inicia o serviço de correio de voz.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Navegador na Internet
+- Métodos:
+  - `exibirPagina(String url)`: Carrega e exibe a página da URL especificada.
+  - `adicionarNovaAba()`: Abre uma nova aba no navegador.
+  - `atualizarPagina()`: Recarrega a página que está atualmente visível.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Diagrama UML
 
-## Dependency Management
+O diagrama UML abaixo ilustra as interfaces e métodos que descrevem as funcionalidades de cada componente do projeto:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Diagrama UML do Projeto iPhone](dio-desafio-iphone/image.png)
+
+## Implementação em Java
+
+As interfaces foram implementadas em Java, seguindo o modelo orientado a objetos. Os arquivos fonte estão disponíveis no diretório `src` deste repositório.
+
