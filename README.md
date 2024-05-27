@@ -1,4 +1,4 @@
-# Projeto iPhone Componentes
+ Projeto iPhone Componentes
 
 Este projeto visa modelar e implementar as funcionalidades principais de um iPhone como um exercício de aprendizado em programação orientada a objetos e design de software. As funcionalidades incluídas neste projeto são o Reprodutor Musical, o Aparelho Telefônico e o Navegador na Internet.
 
@@ -26,7 +26,7 @@ Este projeto visa modelar e implementar as funcionalidades principais de um iPho
 
 O diagrama UML abaixo ilustra as interfaces e métodos que descrevem as funcionalidades de cada componente do projeto:
 
-![Diagrama UML do Projeto iPhone](dio-desafio-iphone/image.png)
+![Diagrama UML do Projeto iPhone](image.png)
 
 ## Implementação em Java
 
